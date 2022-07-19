@@ -17,6 +17,8 @@ export class DiretivasEstruturaisComponent implements OnInit {
   ];
   constructor() { }
 
+  public nome: string = 'vitor';
+
   ngOnInit(): void {
     setInterval(() => {
       if (this.condition) {
